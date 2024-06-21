@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        xmlns:WpfControlLibrary="clr-namespace:WpfControlLibrary;assembly=WpfControlLibrary" xmlns:Task3="clr-namespace:Task3;assembly=Task3" x:Class="Task5.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WpfControlLibrary:ClockControl HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="40"/>
+        <WpfControlLibrary:CountControl HorizontalAlignment="Right" VerticalAlignment="Center" MaxValue="5" ValueChanged="CountControl_ValueChanged"/>
+    </Grid>
+</Window>
